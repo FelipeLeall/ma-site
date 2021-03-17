@@ -1,0 +1,208 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns2:resultado restricao="true" data="2015-06-17T10:26:29.814-03:00"
+            xmlns:ns2="http://webservice.consulta.spcjava.spcbrasil.org/">
+            <protocolo numero="1390933985" digito="4"/>
+            <operador codigo="392152" nome="TESTES DE WEBSERVICE HOMOLOGACAO"/>
+
+            <!-- CONSUMIDOR -->
+            <consumidor>
+                <consumidor-pessoa-fisica data-nascimento="1985-02-03T00:00:00-03:00" email="k_apx@yahoo.com.br" estado-civil="SOLTEIRO" idade="30" nome="ADALBERTO COSTA SILVA" nome-mae="MARIA SOUZA COSTA SILVA" nome-pai="JOAO PAULO SILVA" numero-rg="143518" sexo="MASCULINO" signo="AQUARIO">
+                    <cpf regiao-origem="ACRE, AMAPÁ, AMAZONAS, PARÁ, RONDÔNIA, RORAIMA" numero="74065416272"/>
+                    <situacao-cpf descricao-situacao="REGULAR" data-situacao="2015-04-07T08:59:56-03:00"/>
+                    <estado-rg sigla-uf="AP"/>
+                    <endereco logradouro="AV SERINGAIS" numero="N 473" complemento="BRASIL NOVO 473 PX 
+    A ESC MARIA CAVALCANTE DAZEVEDO P" bairro="BRASIL NOVO" cep="68909177">
+                        <cidade nome="MACAPA">
+                            <estado sigla-uf="AP"/>
+                        </cidade>
+                    </endereco>
+                    <telefone-residencial numero-ddd="96" numero="81148490"/>
+                </consumidor-pessoa-fisica>
+            </consumidor>
+            <!-- FIM CONSUMIDOR -->
+            <grafia-pj/>
+            <!-- ?????? -->
+            <endereco-cep-consultado>
+                <detalhe-endereco-cep-consultado>
+                    <endereco logradouro="RUA BIOBEDAS" bairro="PARQUE IMPERIAL" cep="4302010">
+                        <cidade nome="SAO PAULO">
+                            <estado sigla-uf="SP"/>
+                        </cidade>
+                    </endereco>
+                </detalhe-endereco-cep-consultado>
+            </endereco-cep-consultado>
+            <telefone-consultado>
+                <resumo quantidade-total="1"/>
+                <detalhe-telefone-consultado>
+                    <assinante nome="JOSE ALVES SOUZA" tipo-telefone="Fixo">
+                        <telefone numero-ddd="19" numero="3652854"/>
+                        <endereco logradouro="R DAS VERBENAS" numero="98" bairro="VILA LUCIA" cep="3144020">
+                            <cidade nome="SAO PAULO">
+                                <estado sigla-uf="SP"/>
+                            </cidade>
+                        </endereco>
+                    </assinante>
+                </detalhe-telefone-consultado>
+            </telefone-consultado>
+
+            <telefone-vinculado-consumidor>
+                <resumo quantidade-total="0"/>
+            </telefone-vinculado-consumidor>
+
+            <ultimo-telefone-informado>
+                <detalhe-ultimo-telefone-informado data-primeira-consulta="2011-02-19T00:00:00-02:00" data-ultimaconsulta="2011-02-19T00:00:00-02:00" quantidade-consulta="1">
+                    <telefone numero-ddd="96" numero="32170510"/>
+                </detalhe-ultimo-telefone-informado>
+            </ultimo-telefone-informado>
+
+            <ultimo-endereco-informado>
+                <detalhe-ultimo-endereco-informado>
+                    <endereco logradouro="AV SERINGAIS N 473 BRASIL NOVO" numero="473" complemento="PROX A ESC. MARIA CAVALCANTE D.AZEVEDO P" bairro="BRASIL NOVO" cep="68909177">
+                        <cidade nome="MACAPA">
+                            <estado sigla-uf="AP"/>
+                        </cidade>
+                    </endereco>
+                </detalhe-ultimo-endereco-informado>
+
+                <detalhe-ultimo-endereco-informado>
+                    <endereco logradouro="AV SERINGAIS N 473 BRASIL NOVO" numero=" " bairro="BRASIL 
+    NOVO" cep="68909177">
+                        <cidade nome="MACAPA">
+                            <estado sigla-uf="AP"/>
+                        </cidade>
+                    </endereco>
+                </detalhe-ultimo-endereco-informado>
+
+                <detalhe-ultimo-endereco-informado>
+                    <endereco logradouro="AVENIDA SERINGAL" numero="473" bairro="BRASIL NOVO" cep="68909332">
+                        <cidade nome="MACAPA">
+                            <estado sigla-uf="AP"/>
+                        </cidade>
+                    </endereco>
+                </detalhe-ultimo-endereco-informado>
+            </ultimo-endereco-informado>
+
+            <alerta-documento>
+                <resumo quantidade-total="0"/>
+            </alerta-documento>
+
+            <!-- SPC -->
+            <spc>
+                <resumo quantidade-total="4" data-ultima-ocorrencia="2015-04-13T00:00:00-03:00" valor-ultimaocorrencia="816.9"/>
+                <detalhe-spc nome-associado="ATIVOS S A" data-inclusao="2015-04-13T00:00:00-03:00" datavencimento="2011-04-10T00:00:00-03:00" nome-entidade="SAO PAULO / SP" contrato="20963865/53185874" comprador-fiador-avalista="COMPRADOR" valor="816.9">
+                    <cidade-associado nome="BRASILIA">
+                        <estado sigla-uf="DF"/>
+                    </cidade-associado>
+                    <telefone-associado numero-ddd="800" numero="6443030"/>
+                </detalhe-spc>
+                <detalhe-spc nome-associado="LOJA MERIDIANA" codigo-entidade="16501" data-inclusao="2011-
+    09-19T00:00:00-03:00" data-vencimento="2011-04-14T00:00:00-03:00" nome-entidade="CDL - MACAPA / 
+    AP" contrato="134123" comprador-fiador-avalista="COMPRADOR" valor="121.92">
+                    <cidade-associado nome="MACAPA">
+                        <estado sigla-uf="AP"/>
+                    </cidade-associado>
+                    <telefone-associado numero-ddd="96" numero="32225904"/>
+                </detalhe-spc>
+                <detalhe-spc nome-associado="LOJA MUNDO TOTAL" codigo-entidade="11501" datainclusao="2011-02-13T00:00:00-02:00" data-vencimento="2010-12-10T00:00:00-02:00" nome-entidade="CDL
+    - BELEM / PA" contrato="L44119805" comprador-fiador-avalista="COMPRADOR" valor="337.5">
+                    <cidade-associado nome="BELEM">
+                        <estado sigla-uf="PA"/>
+                    </cidade-associado>
+                    <telefone-associado numero-ddd="91" numero="40051500"/>
+                </detalhe-spc>
+                <detalhe-spc nome-associado="CAPITAL INVESTIMENTOS E FINANCAS" data-inclusao="2011-01-
+    30T00:00:00-02:00" data-vencimento="2010-12-11T00:00:00-02:00" nome-entidade="SAO PAULO / SP" contrato="9199535" comprador-fiador-avalista="COMPRADOR" valor="347.47">
+                    <cidade-associado nome="SAO PAULO">
+                        <estado sigla-uf="SP"/>
+                    </cidade-associado>
+                    <telefone-associado numero-ddd="11" numero="33653500"/>
+                </detalhe-spc>
+            </spc>
+            <cheque-lojista>
+                <resumo quantidade-total="0"/>
+            </cheque-lojista>
+            <ccf>
+                <resumo quantidade-total="0"/>
+            </ccf>
+            <contra-ordem-documento-diferente>
+                <resumo quantidade-total="0"/>
+            </contra-ordem-documento-diferente>
+            <contra-ordem>
+                <resumo quantidade-total="0"/>
+            </contra-ordem>
+            <contumacia>
+                <resumo quantidade-total="0"/>
+            </contumacia>
+            <credito-concedido>
+                <resumo quantidade-total="0"/>
+            </credito-concedido>
+            <dados-agencia-bancaria>
+                <detalhe-dados-agencia-bancaria>
+                    <dados-bancarios numero-agencia="1685" nome-agencia="S PAULO PLANALTO PAULISTA">
+                        <endereco logradouro="AV INDIANOPOLIS 2360">
+                            <cidade nome="SAO PAULO">
+                                <estado sigla-uf="SP"/>
+                            </cidade>
+                        </endereco>
+                        <fax numero-ddd="0" numero="55852235"/>
+                    </dados-bancarios>
+                </detalhe-dados-agencia-bancaria>
+            </dados-agencia-bancaria>
+            <consulta-realizada quantidade-dias-consultados="90">
+                <resumo quantidade-total="0"/>
+            </consulta-realizada>
+            <informacao-poder-judiciario>
+                <resumo quantidade-total="0"/>
+            </informacao-poder-judiciario>
+            <cheque-consulta-online-srs>
+                <resumo quantidade-total="0"/>
+            </cheque-consulta-online-srs>
+            <capital-social/>
+            <antecessora/>
+            <atividade-empresa/>
+        </ns2:resultado>
+    </S:Body>
+</S:Envelope>
+
+<!-- TESTE COM CMC7 FALSE -->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:web="http://webservice.consulta.spcjava.spcbrasil.org/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:filtro>
+            <codigo-produto>13</codigo-produto>
+            <tipo-consumidor>F</tipo-consumidor>
+            <documento-consumidor>23693303258</documento-consumidor>
+            <cep-consumidor>04302010</cep-consumidor>
+            <telefone-consultar>
+                <ddd>19</ddd>
+                <numero>36562854</numero>
+            </telefone-consultar>
+            <utiliza-CMC7>false</utiliza-CMC7> 
+            <cep-origem>04302010</cep-origem>
+            <codigo-estacao-consultante>FFF</codigo-estacao-consultante>
+            <data-nascimento-rg>1960-06-15T00:00:00</data-nascimento-rg>
+        </web:filtro>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:web="http://webservice.consulta.spcjava.spcbrasil.org/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:filtro>
+            <codigo-produto>13</codigo-produto>
+            <tipo-consumidor>F</tipo-consumidor>
+            <documento-consumidor>23693303258</documento-consumidor>
+            <cep-consumidor>04302010</cep-consumidor>
+            <telefone-consultar>
+                <ddd>19</ddd>
+                <numero>36562854</numero>
+            </telefone-consultar> 
+            <cep-origem>04302010</cep-origem>
+            <codigo-estacao-consultante>FFF</codigo-estacao-consultante>
+            <data-nascimento-rg>1960-06-15T00:00:00</data-nascimento-rg>
+        </web:filtro>
+    </soapenv:Body>
+</soapenv:Envelope>

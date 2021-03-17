@@ -1,0 +1,43 @@
+/*  */
+/* 0 - Config. Gerais*/
+/* 1 - Navbar*/
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* 0)- Config Gerais  Inicio*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --title-color: #00BA66;
+    --p-color: #00BA66;
+    --bg-color: #1D0C21;
+    --const-yellow: #FFF55C;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+/* Config Gerais Inicio*/
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+div.navbar-ma{
+    display: flex;
+    color: #00BA66;
+    border-bottom: 2px solid #00BA66;
+}
+
+div.navbar-ma > span.item-navbar-left{
+    margin-right: auto;
+    padding-top: 2% ;
+    padding-bottom: 2% ;
+}
+div.navbar-ma > span.item-navbar-right{
+    margin-left: auto;
+    padding-top: 2% ;
+    padding-bottom: 2% ;
+}
